@@ -9,7 +9,7 @@
 --]]
 do
 function run(msg, matches)
-  if matches[1] == "الاوامر" and not is_momod(msg) then
+  if matches[1] == "الاوامر" then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -32,7 +32,7 @@ function run(msg, matches)
 ..'🕵ᴄʜ📡: @XxMTxX'
 ------------------
 
-  elseif matches[1] == "م1" and not is_momod(msg) then
+  elseif matches[1] == "م1" then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -69,7 +69,7 @@ function run(msg, matches)
 ------------------
 
 
-  elseif  matches[1] == "م2" and not is_momod(msg) then 
+  elseif  matches[1] == "م2" then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -93,7 +93,7 @@ function run(msg, matches)
 ..'🕵ᴄʜ📡: @XxMTxX'
 ------------------
 
-  elseif  matches[1] == "م3" and not is_momod(msg) then 
+  elseif  matches[1] == "م3" then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
